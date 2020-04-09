@@ -1,6 +1,6 @@
 import numpy as np
 from random import randrange
-from tensorflow.keras.models import load_model, clone_model
+from keras.models import load_model, clone_model
 
 class AgentDQN():
     def __init__(self, gamma, actions_count, model, experience_replay = None, update_steps = 1000,
